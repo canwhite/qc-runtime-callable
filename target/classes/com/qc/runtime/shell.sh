@@ -1,0 +1,1 @@
+mkdir -p /Users/mac/Desktop/dir/hello
