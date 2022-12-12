@@ -28,9 +28,11 @@ public class App
  
          // 获取异步任务的结果
          Process result = future.get();
-         System.out.println(result);
-
-
+         if (result != null) {
+            System.out.println("Command ran successfully!");
+        } else {
+            System.out.println("Failed to run command.");
+        }
 
          
     }
