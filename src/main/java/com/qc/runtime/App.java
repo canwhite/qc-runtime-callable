@@ -15,7 +15,8 @@ public class App
         Callable<Process> task = () -> {
             // 执行异步任务
             Runtime runtime = Runtime.getRuntime();
-            Process process = runtime.exec("/Users/mac/Desktop/qc-java-runtime/src/main/java/com/qc/runtime/shell.sh");
+            //根据具体位置来更换
+            Process process = runtime.exec("/Users/zack/Desktop/qc-runtime-callable/src/main/java/com/qc/runtime/shell.sh");
             return process;
         };
     
